@@ -32,7 +32,12 @@
     border-left: 5px solid yellow;
     background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease-in;
 }
+.Maincard:hover{
+    transform: scale(1.1);
+}
+
 .Maincard p{
     font-size: medium;
     color: #A0A0A0;
@@ -74,6 +79,11 @@
     width: 20px;
     height: 20px;
     text-align: center;
+    transition: transform 0.3s ease-in;
+}
+
+.notification:hover{
+    transform: scale(1.5);
 }
 .search-icon{
     margin-top: 3px;
@@ -88,7 +98,14 @@
     border-radius: 50%;
     object-fit: cover;
     margin-right: 15px;
+    transition: transform 0.3s ease-in;
 }
+
+.user:hover{
+    transform: scale(1.5);
+}
+
+
 .header-section .top-row .left{
     grid-column: 1/3;
     grid-row: 1/2;
@@ -158,6 +175,11 @@ input{
     background-color:#1992D4;
     color: white;
     border: none;
+    transition: width 0.3s ease-in,background-color 0.3s ease-out;
+}
+.h-btn:hover{
+    width: 7em;
+    background-color: black;
 }
 
 #sidebar{
@@ -173,7 +195,13 @@ input{
     width: 30px;
     height: 30px;
     fill: white;
+    transition: transform 0.3s ease-in;
+    
 }
+.icon:hover{
+    transform: scale(1.5);
+}
+
 .dashboard .icon{
     width: 50px;
     height: 50px;
@@ -247,6 +275,12 @@ input{
 .a-card div{
     border-bottom: 1px solid black;
     padding: 20px 20px 20px 20px;
+    transition: border 0.3s ease-in;
+
+}
+
+.a-card div:hover{
+    border-bottom: 2px solid #1992D4;
 }
 .a-card div h4{
     font-size: large;
